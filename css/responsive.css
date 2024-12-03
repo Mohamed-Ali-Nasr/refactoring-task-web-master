@@ -1,0 +1,26 @@
+/* Start Navbar */
+@media (max-width: 575px) {
+  header {
+    padding: 40px 0 20px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav .navbar-collapse {
+    border-top: 1px solid #ddd;
+  }
+  nav .navbar-toggler .icon-bar {
+    background-color: #fff;
+  }
+  nav .navbar-collapse .navbar-nav {
+    margin: 7.5px -15px;
+  }
+  nav .navbar-collapse .nav-item {
+    margin: 20px 15px 0;
+    font-size: 16px;
+  }
+  nav .navbar-collapse .nav-link {
+    display: inline-block;
+  }
+}
+/* End Navbar */

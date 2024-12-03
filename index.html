@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="My Advanced Blog - A blog with advanced features"
+    />
+    <!-- Bootstrap Css File -->
+    <link
+      rel="preload"
+      href="css/bootstrap.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="css/bootstrap.min.css" /></noscript>
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Responsive Css File -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Page Title -->
+    <title>My Advanced Blog</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div
+        class="container d-flex flex-column align-items-center justify-content-center"
+      >
+        <h1>My Advanced Blog</h1>
+        <!-- Start Navbar -->
+        <nav id="navbar" class="navbar-expand-sm" role="navigation">
+          <button
+            class="border-0 bg-transparent mt-2 navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mt-sm-0 mt-2 mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main class="container mt-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title fs-4 mb-3">First Advanced Article Title</h2>
+              <p class="card-text">
+                This is some sample text for the first article. The full content
+                of the article could be displayed here. Feel free to add more
+                content and style it as needed.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title fs-4 mb-3">
+                Second Advanced Article Title
+              </h2>
+              <p class="card-text">
+                This is some sample text for the second article. The full
+                content of the article could be displayed here. Experiment with
+                different layouts and design enhancements.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title fs-4 mb-3">Third Advanced Article Title</h2>
+              <p class="card-text">
+                This is some sample text for the third article. Challenge
+                yourself to add more features and make the blog more interactive
+                and user-friendly.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <aside class="sidebar">
+            <article>
+              <h3 class="mb-3 fs-5">About the Blog</h3>
+              <p>
+                This blog is more advanced, requiring enhancements and
+                restructuring. Consider adding more sections and making it
+                dynamic with JavaScript.
+              </p>
+            </article>
+            <h3 class="mb-3 fs-5">Useful Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About the Author</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          </aside>
+          <aside>
+            <h3 class="mb-3 fs-5">Recent Posts</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">How to Improve Your Blog</a></li>
+              <li><a href="#">Understanding CSS Grid</a></li>
+              <li><a href="#">10 JavaScript Tips and Tricks</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <!-- Start Footer -->
+    <footer class="text-center p-3">
+      <div class="container">
+        <div class="row">
+          <div class="offset-lg-1 col-lg-10">
+            <form>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <input
+                      class="border-0 shadow-none form-control"
+                      id="form_name"
+                      type="text"
+                      name="name"
+                      placeholder="Name"
+                      required="required"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <input
+                      class="border-0 shadow-none form-control"
+                      id="form_email"
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                      required="required"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <textarea
+                      class="border-0 shadow-none form-control"
+                      id="form_message"
+                      name="message"
+                      placeholder="Message"
+                      rows="4"
+                      required="required"
+                    ></textarea>
+                  </div>
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="btn btn-primary mb-5 w-50 rounded-4 fs-6"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <p class="mb-1">All Rights Reserved © 2024 | Designed by Mohamed Ali</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Go Top -->
+    <button
+      class="btn btn-sm btn-primary position-fixed bottom-0 end-0 translate-middle d-none p-1 p-sm-2"
+      id="goTop"
+      aria-label="goTop"
+    >
+      <svg
+        width="24"
+        height="24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        stroke="#fff"
+      >
+        <path
+          d="M23.245 20l-11.245-14.374-11.219 14.374-.781-.619 12-15.381 12 15.391-.755.609z"
+        />
+      </svg>
+    </button>
+    <!-- End Go Top -->
+
+    <!-- Bootstrap Bundle js file -->
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <!-- Main Js File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
